@@ -44,6 +44,48 @@ To run this project, you need to have Python installed on your machine. You also
 2. **Enter property details:** Fill in the property details using the various input fields provided.
 3. **Predict the price:** Click the "Predict 💡" button to get the estimated price.
 
+## 🗂️ File Structure
+
+ ```
+IMMO_ELIZA/
+│
+├── Analysis/
+│   ├── immo_eliza_analysis.ipynb
+│   ├── data/
+│   │   ├── change.py
+│   │   ├── final_dataset.json
+│   │   ├── formatted_json.json
+│   │   ├── to_csv.py
+│   │   ├── 2.immo_eliza_analysis.ipynb
+│   │   ├── AnalysisAssignment.ipynb
+│   │   ├── main.py
+│   │   └── Untitled-1.ipynb
+│   └── README.md
+│
+├── catboost_info/
+│   ├── learn/
+│   │   ├── events.out.tfevents
+│   │   ├── tmp/
+│   │   ├── learn_error.tsv
+│   │   ├── time_left.tsv
+│
+├── ML/
+│   ├── Encoder/
+│   │   └── encoder.pkl
+│   ├── Model/
+│   │   ├── model.pkl
+│   │   ├── model.py
+│   ├── preprocessing/
+│   │   └── preprocessing.py
+│
+├── Deployment/
+│   └── deployment.py
+│
+├── .gitignore
+├── README.md
+└── requirements.txt
+```
+
 ## Inputs
 
 Here are the details you need to provide:
@@ -95,10 +137,14 @@ Here are the details you need to provide:
 
 ## Timeline 🕙
 
-**Day 1:** Setup and Installation
-**Day 2:**  Feature Implementation
-**Day 3:**  Testing and Optimization
-**Day 4:**  Deployment
+- **Day 1:** Setup and Installation
+
+- **Day 2:**  Feature Implementation
+
+- **Day 3:**  Testing and Optimization
+
+- **Day 4:**  Deployment
+
 
 --- 
 Thank you for using the Real Estate Price Prediction Machine! If you have any questions or feedback, feel free to reach out. Happy predicting! 🏠💰
