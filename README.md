@@ -93,4 +93,12 @@ Here are the details you need to provide:
 
 ---
 
+## Timeline 🕙
+
+**Day 1:** Setup and Installation
+**Day 2:**  Feature Implementation
+**Day 3:**  Testing and Optimization
+**Day 4:**  Deployment
+
+--- 
 Thank you for using the Real Estate Price Prediction Machine! If you have any questions or feedback, feel free to reach out. Happy predicting! 🏠💰
